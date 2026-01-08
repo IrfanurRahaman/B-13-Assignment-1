@@ -47,8 +47,67 @@ button{
     padding: 12.5px 16px;
     border-radius: 4px;
     color: white;
+    cursor: pointer;
 }
 
 button:hover{
     background-color: #1e7e34;
+}
+
+/* making banner */
+
+.banner .banner-container{
+    width: 85%;
+    max-width: 1360;
+    margin: 0 auto;
+    text-align: center;
+}
+.early-open{
+    max-width: 229px;
+    margin: 0 auto;
+    height: 36px;
+    background-color: white;
+    border-radius: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.banner{
+    margin-top: 16px;
+    padding-top: 115px;
+    padding-bottom: 180px;
+    background: url(assets/hero-bg.png);
+}
+
+.banner-container h1{
+    font-size: 72px;
+    font-weight: 700;
+}
+
+.banner-container h2{
+    color: #30B868;
+    font-size: 72px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.banner-container p{
+    color: white;
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 32px;
+}
+
+.third-button{
+    border: 2px solid white;
+    
+}
+
+.banner-container .btn{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
 }
