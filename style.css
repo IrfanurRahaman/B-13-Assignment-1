@@ -1,0 +1,54 @@
+
+.font-inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+/* making navigation */
+
+nav{
+    width: 85%;
+    max-width: 1360px;
+    margin: 0 auto;
+    padding-top: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 32px;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover{
+    color: #333333;
+}
+
+button{
+    background-color: #30B868;
+    border: none;
+    padding: 12.5px 16px;
+    border-radius: 4px;
+    color: white;
+}
+
+button:hover{
+    background-color: #1e7e34;
+}
