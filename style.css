@@ -160,6 +160,11 @@ button:hover{
 .card {
     box-shadow: 0 -10px 10px rgba(0, 0, 0, 0.14);
     border-radius: 8px;
+    transition: 0.3s;
+}
+
+.card:hover{
+    transform: translateY(-15px);
 }
 
 .card .img-container{
@@ -247,16 +252,7 @@ button:hover{
 }
 
 
-@keyframes bannertextslide {
-    0%{
-        transform: translateX(-150px);
-        opacity: 0;
-    }
-    100%{
-        transform: translateX(0px);
-        opacity: 1;
-    }
-}
+
 
 
 /* ready to think section */
@@ -348,4 +344,16 @@ footer .footer-container{
     padding-bottom: 30px;
     padding-top: 30px;
     border-top: 1px solid #30b86955;
+}
+
+
+@keyframes bannertextslide {
+    0%{
+        transform: translateX(-150px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0px);
+        opacity: 1;
+    }
 }
