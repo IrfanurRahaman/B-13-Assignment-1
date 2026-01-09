@@ -101,8 +101,15 @@ button:hover{
     margin-bottom: 32px;
 }
 
+.second-btn{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
 .third-button{
-    border: 2px solid white;
+    background-color: #504e4e00;
+    border: 1px solid white;
     
 }
 
